@@ -1,0 +1,9 @@
+# dont track abcjs & gruntfile javascript files or .zipit
+*.js
+*.zipit
+.*.swp
+*~
+/.project
+/composer.lock
+/vendor
+/node_modules

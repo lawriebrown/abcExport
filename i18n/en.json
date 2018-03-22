@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [ "Lawrie Brown" ]
+	},
+	"abcexport": "Export abc tunes",
+	"abcexport-desc": "Provide a [[Special:abcExport|special page]] for exporting content from pages containing abc music notation in abc or pdf formats.",
+	"abcexport-i18n-welcome": "Welcome to the localization file of the abcExport extension.",
+	"abc_export_link": "Export this tune abc",
+	"pdf_export_link": "Export this pdf score",
+	"tag_tune_link": "Tag for later export",
+	"multi_export_link": "Export multiple tunes",
+	"abc_special_page_title": "",
+	"abc_export_text": "This page allows you to export the abc tune content from each of the tune pages listed, in abc or pdf format. Or to just save the tune names.\n\nYou can edit or add to this list of one or more tune/page titles that you want to export abc tunes from, one title per line. You can delete any unwanted tunes, or to change their order in the list, but remember to keep one tune/page title per line, which '''must''' exactly match the tune/page title.  Or you can copy and paste a list of tunes titles from a text file on your computer into this list.\n\nNote that any leading The/An/A will be moved to end per site policy for tune page names, if needed. And that spaces are replaced by '_' if needed. Both of these are already done for tagged tune names.\n\nLines starting with <code>%</code> are abc comments or directives (eg <code>%%newpage</code>) that will be copied directly into the abc file.\n\nOnce you are satisfied with your list, you should specify the filename to use for the export.  Next specify the desired export format (abc music notation file, pdf rendered score, or this list as a text file), the \"Export Tunes\" action, and then select the \"Do It!\" button to download the content in your chosen format.",
+"abc_export_text2": "Any tune pages you chose to \"Tag for later export\" in this web session will appear in this list, in the order tagged, unless the list has been cleared, or reset by exporting a single tune.\n\nYou can navigate away to search for and tag other tunes to add to the list.  If you make any changes to the list on this page, you '''must''' select either the \"Export Tunes\" or \"Remember List Changes\" action to save your changes before leaving this page. '''Please note''' that your tune list is '''only''' saved for the duration of this web session. You need to use it to export tunes, export it as text, or copy and paste it into a text file on your computer, before closing your browser.",
+	"abc_list_title": "==Tune List==",
+	"abc_tune_list": "Tune Names",
+	"abc_filename": "Filename",
+	"abc_format_text": "Select export format",
+	"abc_format_abc": "abc tune",
+	"abc_format_pdf": "pdf score",
+	"abc_format_txt": "txt tune name list",
+	"abc_action": "Action Wanted",
+	"abc_export": "Export Tunes",
+	"abc_clear": "Clear Tune List",
+	"abc_save": "Remember List Changes",
+	"abc_submit": "Do It!"
+}

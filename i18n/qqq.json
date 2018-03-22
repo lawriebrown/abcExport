@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [ "Lawrie Brown" ]
+	},
+	"abcexport": "Special Page Name",
+	"abcexport-desc": "{{desc|name=abcExport|url=http://bushtraditions.wiki/tunes/extensions/ }}",
+	"abcexport-i18n-welcome": "Used to greet the user when reading the i18n/??.json file.",
+
+	"abc_export_link": "Toolbox link text for abc export",
+	"pdf_export_link": "Toolbox link text for pdf export",
+	"tag_tune_link": "Toolbox link text for Tag tune",
+	"multi_export_link": "Toolbox link text for Export multiple tunes",
+
+	"abc_special_page_title": "second header after special page title (if wanted)",
+	"abc_export_text": "abcExport Special page instructions to user, to enter page names",
+	"abc_export_text2": "abcExport additional Special page instructions, shown when have session manager state",
+	"abc_list_title": "heading used before tunelist textarea",
+	"abc_tune_list": "Label for tune list",
+	"abc_filename": "Text before the requested output file name field",
+	"abc_format_text": "Export format instructions",
+	"abc_format_abc": "Export format option: abc tune",
+	"abc_format_pdf": "Export format option: pdf score",
+	"abc_format_txt": "Export format option: tune name list",
+	"abc_action": "Label for Action Wanted",
+	"abc_export": "Export action text",
+	"abc_clear": "Clear action text",
+	"abc_save": "Save action text",
+	"abc_submit": "Submit button text"
+
+}

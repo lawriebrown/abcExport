@@ -1,0 +1,61 @@
+{
+	"name": "abcExport",
+	"version": "1.0",
+	"author": [
+		"Lawrie Brown"
+	],
+	"url": "http://bushtraditions.wiki/tunes/extensions/abcExport",
+	"descriptionmsg": "abcexport-desc",
+	"license-name": "CC By NC SA",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"abcExportHooks": "abcExport.hooks.php",
+		"SpecialAbcExport": "specials/SpecialAbcExport.php"
+	},
+	"config": {
+		"abcExport_abcm2ps": "/usr/bin/abcm2ps",
+		"abcExport_gs": "/usr/bin/gs",
+		"abcExport_abcTag": "<pre id=abc>",
+		"abcExport_abcTagEnd": "</pre>",
+		"abcExport_mungeNames": true,
+		"abcExport_addFileURL": true,
+		"abcExport_pagel_cols": 40,
+		"abcExport_pagel_rows": 10
+	},
+	"ExtensionMessagesFiles": {
+		"abcExportAlias": "abcExport.i18n.alias.php",
+		"abcExportMagic": "abcExport.i18n.magic.php"
+	},
+	"Hooks": {
+		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": [
+			"abcExportHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink"
+		],
+		"BaseTemplateToolbox": [
+			"abcExportHooks::onBaseTemplateToolbox"
+		]
+	},
+	"MessagesDirs": {
+		"abcExport": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.abcExport": {
+			"position": "top",
+			"scripts": [],
+			"styles": [
+				"modules/ext.abcExport.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "abcExport"
+	},
+	"SpecialPages": {
+		"AbcExport": "SpecialAbcExport"
+	},
+	"manifest_version": 1
+}
